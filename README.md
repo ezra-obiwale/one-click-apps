@@ -1,7 +1,7 @@
 ## Repo for CapRover One Click Apps
 
 ### How to create a one-click app (as of v1.8.0):
-First, have a look at [this simple example](https://github.com/caprover/one-click-apps/blob/master/public/v4/apps/privatebin.yml). Now, read on for more details:
+First, have a look at [this simple example](https://github.com/ezra-obiwale/one-click-apps/blob/master/public/v4/apps/privatebin.yml). Now, read on for more details:
 
 
 - Find/create a docker-compose file for the app you're interested in.
@@ -51,27 +51,15 @@ caproverOneClickApp:
 ### Icon
 - Make sure you add an app icon to the logos directory!
 
-
----------
-
-
-## Test your One Click Apps
-After creating your One-Click app json, like [this](https://github.com/caprover/one-click-apps/blob/master/public/v2/apps/adminer.json), you need to test it before creating a Pull Request. Here is how you test it:
-- Login to your CapRover dashboard
-- Go to **apps** and click on **One-Click Apps/Databases**
-- Select **>> TEMPLATE <<** at the bottom of the dropdown list 
-- Copy and paste your JSON into the text area, and click **NEXT**.
-- Enter values and make sure it's working as expected.
-
 ---------
 
 ## Build your own one-click app repository
-You may want to build your own private repository. CapRover supports having multiple repositories. You can add new repository URLs to the one click app page. The official one, this one, is available as `https://oneclickapps.caprover.com`.
+You may want to build your own private repository. CapRover supports having multiple repositories. You can add new repository URLs to the one click app page. The official one, this one, is available as `https://caprover.ezraobiwale.com`.
 
 To create your own repository:
 - Fork this repository
 - Delete all existing apps (to avoid duplicate apps), and add your own apps.
 - Run `npm i`
-- Run `npm run validate_apps` 
-- Run `npm run build` 
-- Now you can host the static content placed in `./dist` directory anywhere you want, the official repo uses github pages to publish the content. Make sure to update [CNAME](https://github.com/caprover/one-click-apps/blob/master/public/CNAME) to your own URL if you decide to do so.
+- Run `npm run validate_apps`
+- Run `npm run build`
+- Now you can host the static content placed in `./dist` directory anywhere you want, the official repo uses github pages to publish the content. Make sure to update [CNAME](https://github.com/ezra-obiwale/one-click-apps/blob/master/public/CNAME) to your own URL if you decide to do so.
