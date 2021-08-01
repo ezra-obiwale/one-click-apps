@@ -24,7 +24,7 @@ caproverOneClickApp:
           description: ''
           validRegex: /.{1,}/
         - id: $$cap_pg_dbs
-          label: Postgress Databases
+          label: Postgres Databases
           description: 'user1:password1@database1; user2:password2@database2; ...user(n):password(n)@database(n)'
           validRegex: /.{0,}/
         - id: $$cap_pg_initdb_args
