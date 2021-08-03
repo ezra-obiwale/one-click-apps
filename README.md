@@ -51,6 +51,18 @@ caproverOneClickApp:
 ### Icon
 - Make sure you add an app icon to the logos directory!
 
+
+---------
+
+
+## Test your One Click Apps
+After creating your One-Click app yaml file, like [this](public/v4/apps/vacuum.yml), you need to test it before creating a Pull Request. Here is how you test it:
+- Login to your CapRover dashboard
+- Go to **apps** and click on **One-Click Apps/Databases**
+- Select **>> TEMPLATE <<** at the bottom of the dropdown list
+- Copy and paste your yaml into the text area, and click **NEXT**.
+- Enter values and make sure it's working as expected.
+
 ---------
 
 ## Build your own one-click app repository

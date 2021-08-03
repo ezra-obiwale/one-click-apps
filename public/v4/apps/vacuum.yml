@@ -34,6 +34,6 @@ caproverOneClickApp:
             Docker Vacuum prunes the system every now and then (10 minutes by default) and applies your custom rules so to remove unused images with a date-based retention policy.
         end: 'Docker Vacuum will now prune the system from dangling resources and also delete images based on your custom rules.'
     displayName: Docker Vacuum
-    isOfficial: false
+    isOfficial: true
     description: A small DevOps utility that runs on your production server as a container and keeps disk usage under control.
     documentation: Taken from https://marcopeg.com/2019/docker-vacuum
